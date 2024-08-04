@@ -1,0 +1,84 @@
+/* Reset default styles */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #004080;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #004080;
+    color: #fff;
+}
+
+/* Styling for links in the table */
+td a {
+    color: #0066cc;
+}
+
+/* Friend List styling */
+ul.friend-list {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.friend-list li {
+    margin-bottom: 10px;
+}
+
+/* Styling for the Send Request link */
+.friend-list a {
+    color: #4caf50;
+}
+
+/* Styling for the form on the page */
+form {
+    margin-top: 20px;
+}
+
+/* Styling for error messages */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Add more styles as needed */
